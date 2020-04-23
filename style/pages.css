@@ -1,0 +1,49 @@
+body {
+  background-color: silver;
+}
+
+#header {
+  background-color: #feb423;
+  text-align: center;
+}
+
+#header2 {
+  margin: 5px;
+}
+
+#materia {
+  padding: 10px;
+}
+
+#prof {
+  background-color: #058ea5;
+  color: white;
+  padding: 5px;
+}
+
+#container {
+  background-color: snow;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  padding: 10px;
+  background-color: #363636;
+  color: white;
+  text-align: center;
+}
+
+#back {
+  color: white;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  color: blue;
+}
