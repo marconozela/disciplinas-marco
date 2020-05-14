@@ -2,8 +2,11 @@ body {
   background-color: silver;
 }
 
+li {
+  color: black;
+}
+
 #header {
-  background-color: #feb423;
   text-align: center;
 }
 
@@ -13,10 +16,12 @@ body {
 
 #materia {
   padding: 10px;
+  background-color: #feb423;
+  color: black;
 }
 
 #prof {
-  background-color: #058ea5;
+  background-color: #363636;
   color: white;
   padding: 5px;
 }
@@ -51,4 +56,25 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.menu {
+  background: #feb423;
+  margin: 0;
+  padding: 0.1em;
+}
+
+.menu li {
+  /* font-size: 25px; */
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.menu a {
+  color: black;
 }

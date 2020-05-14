@@ -3,16 +3,19 @@ body {
 }
 
 #header {
-  background-color: #feb423;
+  /* background-color: #feb423; */
   text-align: center;
 }
 
 #eng {
   padding: 10px;
+  background-color: #feb423;
+  color: black;
 }
 
 #enfase {
-  background-color: #058ea5;
+  /* background-color: #058ea5; */
+  background-color: #363636;
   color: white;
   padding: 5px;
 }
@@ -56,6 +59,10 @@ td {
   text-align: center;
 }
 
+table a {
+  color: #363636;
+}
+
 th,
 td {
   padding: 7px;
@@ -63,11 +70,13 @@ td {
 
 thead {
   /* rgb(255, 240, 165) */
+  /* background-color: rgb(255, 240, 165); */
   background-color: rgb(255, 240, 165);
 }
 
 tbody {
-  background-color: #bee6ec;
+  /* background-color: #bee6ec; */
+  background-color: rgb(204, 200, 200, 0.4);
 }
 
 #footer2 {
